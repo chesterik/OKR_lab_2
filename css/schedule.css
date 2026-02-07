@@ -8,7 +8,6 @@ body {
    align-items: center;
 }
 
-/* Хедер сторінки */
 .header-simple {
    width: 100%;
    background: white;
@@ -46,7 +45,6 @@ h1 {
    text-align: center;
 }
 
-/* Пункт 4: Складна таблиця з об'єднанням комірок та відступами */
 .complex-schedule {
    width: 100%;
    border-collapse: separate;
@@ -71,7 +69,6 @@ h1 {
    border-right: 1px solid #eee;
 }
 
-/* Вирівнювання для різних рядків (згідно з правилами) */
 .row-center {
    text-align: center;
 }
@@ -121,7 +118,6 @@ header {
 
 .logo-icon {
    background: #e60023;
-   /* Колір Pinterest */
    color: white;
    width: 35px;
    height: 35px;

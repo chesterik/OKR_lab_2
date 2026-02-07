@@ -1,4 +1,3 @@
-/* Прибираємо всі відступи, щоб карта була в край екрана */
 body,
 html {
    margin: 0;
@@ -7,10 +6,8 @@ html {
    width: 100%;
    font-family: 'Segoe UI', sans-serif;
    overflow: hidden;
-   /* Щоб не було зайвої прокрутки */
 }
 
-/* Кнопка "Назад", що плаває над картою */
 .back-nav {
    position: absolute;
    top: 20px;
@@ -37,7 +34,6 @@ html {
    background: #f7f7f7;
 }
 
-/* Контейнер для карти */
 .map-container {
    position: absolute;
    top: 0;
@@ -52,7 +48,6 @@ iframe {
    border: none;
 }
 
-/* Картка з інфою (Pinterest Style), що висить над картою */
 .info-overlay {
    position: absolute;
    bottom: 40px;

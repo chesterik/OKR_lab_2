@@ -31,10 +31,8 @@ p {
    font-style: italic;
 }
 
-/* Та сама кнопка, опущена вниз */
 .get-started {
    margin-top: 300px;
-   /* Опускаємо до рівня "лавки" */
    padding: 18px 50px;
    background-color: #4a3aff;
    color: white;
@@ -44,7 +42,6 @@ p {
    transition: 0.3s;
    border: none;
    outline: none;
-   /* Прибираємо лінію */
 }
 
 .get-started:hover {
