@@ -1,3 +1,9 @@
+:root {
+   --bg-color: #f7f7f7;
+   --accent: #4a3aff;
+}
+
+/** header */
 header {
    position: fixed;
    top: 0;
@@ -79,11 +85,7 @@ nav.main-nav a:hover {
    font-size: 14px;
 }
 
-/*  */
-:root {
-   --bg-color: #f7f7f7;
-   --accent: #4a3aff;
-}
+/** body */
 
 body {
    background-color: var(--bg-color);
@@ -104,13 +106,14 @@ body {
    color: #1a1a1a;
 }
 
-.pinterest-container {
+.container {
    column-count: 4;
    column-gap: 20px;
    width: 100%;
    max-width: 1400px;
    margin: 0 auto;
 }
+
 
 .pin-item {
    display: inline-block;
@@ -137,43 +140,19 @@ body {
    padding: 15px;
 }
 
-.pin-table {
-   width: 100%;
-   border-collapse: collapse;
-   font-size: 0.8rem;
-}
-
-.pin-table td {
-   border: 1px solid #eee;
-   padding: 5px;
-}
-
-.special-list {
-   padding-left: 20px;
-   margin: 0;
-   font-size: 0.9rem;
-}
-
-.back-link {
-   position: absolute;
-   top: 20px;
-   left: 20px;
-   text-decoration: none;
-   color: var(--accent);
-   font-weight: bold;
-}
-
-@media (max-width: 1200px) {
-   .pinterest-container {
+@media (max-width: 1000px) {
+   .container {
       column-count: 3;
    }
 }
 
-@media (max-width: 800px) {
-   .pinterest-container {
+@media (max-width: 700px) {
+   .container {
       column-count: 2;
    }
 }
+
+/** footer  */
 
 footer {
    display: flex;
@@ -182,51 +161,4 @@ footer {
    margin-top: 50px;
    color: #888;
    font-size: 14px;
-}
-
-/*  */
-
-
-.pinterest-container {
-   column-count: 4;
-   column-gap: 20px;
-   width: 95%;
-   max-width: 1400px;
-   margin: 20px auto;
-}
-
-.pin-item {
-   display: inline-block;
-   width: 100%;
-   background: white;
-   border-radius: 16px;
-   margin-bottom: 20px;
-   break-inside: avoid;
-   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-   transition: transform 0.3s ease;
-   overflow: hidden;
-}
-
-.pin-item:hover {
-   transform: translateY(-5px);
-}
-
-.pin-item img {
-   width: 100%;
-   height: auto;
-   display: block;
-   max-height: 600px;
-   object-fit: cover;
-}
-
-@media (max-width: 1000px) {
-   .pinterest-container {
-      column-count: 3;
-   }
-}
-
-@media (max-width: 700px) {
-   .pinterest-container {
-      column-count: 2;
-   }
 }
