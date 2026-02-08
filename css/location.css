@@ -31,7 +31,8 @@ html {
 
 .back-btn:hover {
    transform: scale(1.05);
-   background: #f7f7f7;
+   background: rgb(2, 48, 32);
+   color: aliceblue;
 }
 
 .map-container {
@@ -63,7 +64,7 @@ iframe {
 .info-overlay h2 {
    margin: 0 0 10px 0;
    font-family: 'Georgia', serif;
-   color: #e60023;
+   color: #111;
 }
 
 .info-overlay p {
@@ -75,7 +76,7 @@ iframe {
 .accent-line {
    width: 50px;
    height: 4px;
-   background: #4a3aff;
+   background: rgb(2, 48, 32);
    margin-bottom: 15px;
    border-radius: 2px;
 }

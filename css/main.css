@@ -1,6 +1,7 @@
 :root {
    --bg-color: #f7f7f7;
-   --accent: #4a3aff;
+   --accent: #023020;
+   --yellow: #817b0b;
 }
 
 /** header */
@@ -27,7 +28,7 @@ header {
 }
 
 .logo-icon {
-   background: #e60023;
+   background: var(--accent);
    color: white;
    width: 35px;
    height: 35px;
@@ -76,7 +77,7 @@ nav.main-nav a:hover {
 .avatar {
    width: 35px;
    height: 35px;
-   background: #4a3aff;
+   background: var(--yellow);
    border-radius: 50%;
    color: white;
    display: flex;
